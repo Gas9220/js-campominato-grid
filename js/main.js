@@ -54,3 +54,11 @@ const playBtn = document.getElementById('play-btn');
 
 // Livello di default
 let level = "easy";
+
+// Azione alla pressione di playBtn
+playBtn.addEventListener('click',
+    function () {
+        // Chiamo la funzione passandogli il livello e il container a cui appendere i box
+        performGameSettings(level, containerElement);
+    }
+)
