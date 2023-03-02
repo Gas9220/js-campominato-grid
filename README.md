@@ -15,6 +15,7 @@ con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 
  - Creo un div e gli assegno la classe box
  - Creo un span e gli assegno come innerHTML l'argomento passato alla funzione
  - Appendo lo span al div
+ - Aggiungo un event listener che ascolta il click su box e quando avviene aggiunge la classe che colora il background e mostra l'alert
  - Ritorno il div
 
 5. Creo una funzione createGrid avente due argomenti:

@@ -28,3 +28,8 @@ main {
     left: calc(50% - .625rem);
     top: calc(50% - .625rem);
 }
+
+.box-clicked {
+    color: white;
+    background-color: blue;
+}

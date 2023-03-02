@@ -16,6 +16,12 @@ function createBox(boxTextContent) {
     // Aggingo lo span al div
     boxElement.append(boxSpanElement);
 
+    // Aggiungo l'evento al click sul box
+    boxElement.addEventListener('click', function() {
+        boxElement.classList.add('box-clicked')
+        alert(boxTextContent)
+    })
+
     // Ritorno il box
     return boxElement
 }
