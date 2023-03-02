@@ -31,6 +31,21 @@ function createGrid(boxNumber, container) {
     }
 }
 
+// Funzione che crea la griglia in base al livello
+function performGameSettings(level, container) {
+    // svuoto il container se prima era stato già riempito
+    container.innerHTML = ""
+
+    // Faccio uno switch sul livello
+    switch (level) {
+        case "easy": // Se il livello è easy
+            createGrid(100, container); // Creo 100 box e li appendo al container
+            break;
+        default:
+            break;
+    }
+}
+
 // -------------------------------
 
 // Riferimenti HTML
