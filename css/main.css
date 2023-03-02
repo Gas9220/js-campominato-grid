@@ -14,10 +14,23 @@ main {
 
 .box {
     border: .0625rem solid black;
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     text-align: center;
     position: relative;
+}
+
+.easy-box {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.medium-box {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.hard-box {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 .box > span {

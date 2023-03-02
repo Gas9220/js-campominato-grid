@@ -29,3 +29,8 @@ con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 
 - Nel caso default, uscirò semplicemente dallo switch
 
 7. Al click del playBtn, verrò chiaamta la funzione performGameSettings passando negli argomenti il livello e il container
+
+BONUS
+1. Creo un select html e un riferimento ad esso nel javascript
+2. Mi creo le classi per ogni tipo di griglia (easy, medium, hard)
+3. Nella funzione createBox, quando creo il box, faccio uno switch su level per aggiungere la classe corrispondente
