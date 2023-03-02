@@ -1,0 +1,18 @@
+nav {
+    align-items: center;
+    padding: 1rem;
+}
+
+nav button {
+    margin-left: auto;
+    width: 5rem;
+}
+
+nav h2 {
+    margin-left: .3125rem;
+    font-size: 1.875rem;
+}
+
+#logo {
+    height: 3.125rem;
+}
