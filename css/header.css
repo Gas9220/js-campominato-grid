@@ -4,8 +4,16 @@ nav {
 }
 
 nav button {
-    margin-left: auto;
     width: 5rem;
+}
+
+nav label {
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+
+nav select {
+    margin-right: 1.5em;
 }
 
 nav h2 {
